@@ -1,0 +1,76 @@
+body{
+  background-color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+  width: 1500px;
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: auto;
+ 
+}
+table,td,tr{
+   border: none;
+   border-radius: px;
+   height: 40px;
+}
+.heading th{
+  background-color: #d6f5f5;
+  height: 25px;
+  width: 200px;
+
+}
+thead th .icon{
+  size:15px;
+  padding-top: 5px;
+}
+.range-bar {
+  position: relative;
+  width: 200px; 
+  height: 20px; 
+  background-color: #ddd; 
+  border-radius: 4px;
+  overflow: hidden; 
+}
+
+.range-bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgb(113, 223, 117); 
+  border-radius: 4px 0 0 4px; 
+}
+
+.range-bar-values {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.range-bar-values span {
+  font-size: 0.8em;
+}
+
+
+.low-high-values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.low-high-values span {
+  font-weight: bold;
+}
+
+.momentum-values  {
+  margin-right: 20px;
+  padding: 7px;
+  color: green;
+  border: 1px solid green;
+  background-color: rgb(219, 242, 219);
+  border-radius: 10px;
+ 
+}
+
